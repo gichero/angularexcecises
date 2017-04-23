@@ -7,6 +7,9 @@ import { AppComponent } from './app.component';
 import { ComptwoComponent } from './comptwo/comptwo.component';
 import { CompthreeComponent } from './comptwo/compthree.component';
 import { CompfourComponent } from './comptwo/compfour.component';
+import { DatabindingComponent } from './databinding/databinding.component';
+import { PropertyBindingComponent } from './databinding/property-binding.component';
+import { EventBindingComponent } from './databinding/event-binding.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { CompfourComponent } from './comptwo/compfour.component';
     ComptwoComponent,
     CompthreeComponent,
     CompfourComponent,
-    CompthreeComponent
+    CompthreeComponent,
+    DatabindingComponent,
+    PropertyBindingComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule,

@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+    import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-compfour',
   template: `
-    <h1>
-      compfour always Works!
-    </h1>
+    <article>
+        <ng-content> </ng-content> 
+    </article>
   `
 })
 export class CompfourComponent {

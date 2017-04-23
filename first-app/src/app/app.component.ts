@@ -9,7 +9,12 @@ import { Component } from '@angular/core';
     <p>I'm still inline and not block</p>
     <app-comptwo></app-comptwo>
     <app-compthree></app-compthree>
-    <app-compfour></app-compfour>
+    <app-compfour><div>
+        <h2>Hello</h2>
+        <h2>World!</h2>
+    </div>
+    </app-compfour>
+    <app-databinding></app-databinding>
   `,
   // styleUrls: ['./app.component.css']
   styles:[`
